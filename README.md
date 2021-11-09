@@ -89,10 +89,11 @@ personalDice function is returning a closure.
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 
-
+The info stored inside dansRoll is the same. Calling on dansRoll can change since Math.random is involved.
 
 c. What is the lexical scope of `newRoll`? 
 
+newRoll is only there when dansRoll or zoesRoll is called. 
 
 ### Task 3 - Stretch Goals
 
